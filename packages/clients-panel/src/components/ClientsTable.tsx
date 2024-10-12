@@ -16,17 +16,11 @@ export default function ClientsTable({ clients }: { clients: Client[] }) {
             <tbody>
                 {clients.map((client) => (
                     <tr>
-                        <td>
-                            {client.name}
-                        </td>
+                        <td>{client.name}</td>
 
-                        <td>
-                            {client.email}
-                        </td>
-                        
-                        <td>
-                            {client.status}
-                        </td>
+                        <td>{client.email}</td>
+
+                        <td>{client.status}</td>
                     </tr>
                 ))}
             </tbody>
