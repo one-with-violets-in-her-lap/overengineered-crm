@@ -2,7 +2,10 @@
     "name": "over-engineered-app",
     "packageManager": "npm@10.2.0",
     "scripts": {
-        "build": "turbo build"
+        "build": "turbo build",
+        "preview": "turbo preview",
+        "lint": "turbo lint",
+        "format": "prettier . -w"
     },
     "devDependencies": {
         "@originjs/vite-plugin-federation": "^1.3.6",
