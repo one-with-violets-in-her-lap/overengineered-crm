@@ -17,3 +17,5 @@ the projects are loaded in each other during runtime, delivering the
 code using http requests
 
 also used **Turborepo** to simplify building and linting multiple projects
+
+![dashboard ui with table and a custom button highlighted as a separate microfrontend projects](./diagram.jpg)
