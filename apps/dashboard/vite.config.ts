@@ -10,6 +10,7 @@ export default defineConfig({
       name: 'dashboard-host-app',
       remotes: {
         'clients-panel': 'http://localhost:5001/assets/clients-panel.js',
+        'ui-kit': 'http://localhost:5002/assets/ui-kit.js',
       },
       shared: ['react', 'react-dom'],
     }),

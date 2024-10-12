@@ -11,6 +11,10 @@ export default defineConfig({
             name: 'ui-kit',
             filename: 'ui-kit.js',
             shared: ['react', 'react-dom'],
+            exposes: {
+                './Button': './src/components/Button.tsx',
+                './typography/Heading': './src/components/typography/Heading.tsx'
+            }
         }),
     ],
     resolve: {

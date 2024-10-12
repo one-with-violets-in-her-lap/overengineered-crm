@@ -1,20 +1,16 @@
 import ClientsTable from 'clients-panel/ClientsTable'
+import Heading from 'ui-kit/typography/Heading'
+import Button from 'ui-kit/Button'
 
 function App() {
   return (
     <>
-      <h1
-        style={{
-          backgroundColor: '#000000',
-          padding: '3px 12px',
-          borderRadius: '10px',
-          color: 'white',
-          fontFamily: 'Ubuntu'
-        }}
-      >
-        Dashboard
-      </h1>
-      123
+      <Heading>Dashboard</Heading>
+
+      <Button onClick={() => window.location.reload()} className="refresh-button">
+        Refresh
+      </Button>
+
       <ClientsTable
         clients={[
           {
