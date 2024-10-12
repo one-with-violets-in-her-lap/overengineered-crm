@@ -17,7 +17,7 @@ export default function AddClientFormModal({
             title="New client"
             footer={null}
         >
-            <Form onFinish={(values) => onClose()}>
+            <Form onFinish={() => onClose()}>
                 <Form.Item<Partial<Client>>
                     label="Name"
                     name="name"
