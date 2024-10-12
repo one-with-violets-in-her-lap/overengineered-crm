@@ -11,6 +11,11 @@
         "check-types": {
             "dependsOn": ["^check-types"]
         },
+        "dev": {
+            "dependsOn": ["^dev"],
+            "persistent": true,
+            "cache": false
+        },
         "preview": {
             "dependsOn": ["^preview"],
             "persistent": true,

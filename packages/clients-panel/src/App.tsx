@@ -3,7 +3,9 @@ import ClientsTable from '@/components/ClientsTable'
 function App() {
     return (
         <>
-            <h1>Clients</h1>
+            <h1>
+                Clients
+            </h1>
 
             <ClientsTable
                 clients={[

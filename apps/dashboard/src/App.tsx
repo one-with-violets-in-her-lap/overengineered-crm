@@ -1,10 +1,19 @@
-import React from 'react'
 import ClientsTable from 'clients-panel/ClientsTable'
 
 function App() {
   return (
-    <React.Suspense fallback="Loading App...">
-      <h1>Dashboard</h1>
+    <>
+      <h1
+        style={{
+          backgroundColor: '#000000',
+          padding: '3px 12px',
+          borderRadius: '10px',
+          color: 'white',
+          fontFamily: 'Ubuntu'
+        }}
+      >
+        Dashboard
+      </h1>
       123
       <ClientsTable
         clients={[
@@ -27,7 +36,7 @@ function App() {
           },
         ]}
       />
-    </React.Suspense>
+    </>
   )
 }
 
