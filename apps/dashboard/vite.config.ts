@@ -12,12 +12,13 @@ export default defineConfig({
                 'clients-panel':
                     'http://localhost:5001/assets/clients-panel.js',
             },
-            shared: ['react', 'react-dom']
+            shared: ['react', 'react-dom'],
         }),
     ],
     server: {
-        port: 4111,
+        port: 5000,
     },
+    preview: { port: 5000 },
     build: {
         modulePreload: false,
         target: 'esnext',
